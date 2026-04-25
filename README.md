@@ -5,7 +5,7 @@ This is a minimal reproducer for an error I get when using HLS in VSCode on `cla
 (GetLinkable,NormalizedFilePath "/home/martijn/code/clash-compiler/clash-prelude/src/Clash/XException.hs-boot")called GetLinkable for a file without a linkable: NormalizedFilePath "/home/martijn/code/clash-compiler/clash-prelude/src/Clash/XException.hs-boot"
 ```
 
-Then open a Nix shell to get a Python environment with `pygls` + `lsprotocol`:
+Open a Nix shell to get a Python environment with `pygls` + `lsprotocol`:
 
 ```
 nix develop
